@@ -1,0 +1,97 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(-45deg,#667eea,#764ba2,#ff758c,#43cea2);
+  background-size: 400% 400%;
+  animation: bgMove 10s infinite;
+}
+
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.card {
+  background: rgba(255,255,255,0.95);
+  width: 430px;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 25px 40px rgba(0,0,0,0.4);
+  transition: transform 0.6s;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Page fold animation */
+.fold {
+  animation: fold 0.6s ease;
+}
+
+@keyframes fold {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(180deg); }
+}
+
+.options button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg,#667eea,#764ba2);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.options button:hover {
+  opacity: 0.9;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+  min-height: 24px;
+}
+
+.blink {
+  animation: blink 0.5s linear 2;
+}
+
+@keyframes blink {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Flower / star shower */
+.flower {
+  position: absolute;
+  font-size: 18px;
+  animation: shower 1.2s ease-out forwards;
+}
+
+@keyframes shower {
+  0% { transform: scale(0); opacity: 1; }
+  100% { transform: scale(2) translateY(-100px); opacity: 0; }
+}
+
+.next {
+  margin-top: 15px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 15px;
+  background: #ff9800;
+  color: white;
+  cursor: pointer;
+}

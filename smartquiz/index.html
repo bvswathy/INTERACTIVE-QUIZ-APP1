@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-animate"></div>
+
+<!-- Start Screen -->
+<div id="startScreen" class="card">
+  <h1>🌸 Welcome to Smart Quiz 🌸</h1>
+  <p>Answer questions & get instant feedback</p>
+  <button onclick="startQuiz()">Start Quiz</button>
+</div>
+
+<!-- Quiz Screen -->
+<div id="quizScreen" class="card hidden">
+  <h2 id="question"></h2>
+
+  <div class="options">
+    <button onclick="checkAnswer(0)"></button>
+    <button onclick="checkAnswer(1)"></button>
+    <button onclick="checkAnswer(2)"></button>
+    <button onclick="checkAnswer(3)"></button>
+  </div>
+
+  <div id="feedback"></div>
+  <div id="effects"></div>
+
+  <button class="next" onclick="nextQuestion()">Next</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
