@@ -20,4 +20,11 @@ Interactive quiz apps are widely used in educational institutions, corporate tra
 Another important feature is adaptability. Modern quiz apps can implement adaptive learning techniques where the difficulty level adjusts based on the user’s performance. If a user answers correctly, the app may present more challenging questions; if not, it may provide simpler questions or additional explanations. This personalized learning path enhances effectiveness.
 
 In conclusion, an Interactive Quiz App is a powerful educational and assessment tool that combines technology with learning methodologies. By providing instant feedback, performance tracking, gamification, and user-friendly interfaces, it transforms the traditional testing experience into an engaging and productive activity. With continuous advancements in web and mobile technologies, interactive quiz applications are becoming essential tools for modern education and skill development.
+OUTPUT:
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5a35335d-da93-406b-829a-28684bf3f3ef" />
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9d4ed71a-e11c-4424-a407-93b91850fb2c" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/efcacebb-67cc-4782-a9f2-34798916344f" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/cef25471-8c96-4b0c-86d3-9b74c2d394f5" />
