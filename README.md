@@ -1,9 +1,14 @@
 COMPANY CODTECH IT SOLUTIONS
+
 NAME : SWATHY B
-INTERN ID : 
+
+INTERN ID : CITS2160
+
 DOMAIN : FRONTEND DEVELOPMENT 
+
 DURATION : 4 WEEKS
-MENTOR : NEELA SANTOSH
+
+MENTOR : NEELA SANTHOSH
 # INTERACTIVE-QUIZ-APP1 - DESCRIPTION
 An Interactive Quiz App is a dynamic digital application designed to make learning engaging, efficient, and enjoyable through real-time assessments. Unlike traditional paper-based tests, an interactive quiz app provides instant feedback, score tracking, and performance analysis, allowing users to understand their strengths and areas for improvement immediately. These applications can be developed as web-based platforms, mobile apps, or desktop software, making them accessible anytime and anywhere.
 
